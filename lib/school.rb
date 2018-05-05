@@ -1,4 +1,4 @@
 class School #"model" in the domain model context
 
-  roster = []
+  attr_accessor :roster
 end
