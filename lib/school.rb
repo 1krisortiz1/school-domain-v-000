@@ -17,6 +17,6 @@ class School #"model" in the domain model context
   end
 
   def sort
-    @roster[sort]
+    @roster.each { |student| student.sort  }
   end
 end
