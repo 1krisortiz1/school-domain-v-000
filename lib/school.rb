@@ -17,6 +17,6 @@ class School #"model" in the domain model context
   end
 
   def sort
-
+    @roster[sort]
   end
 end
