@@ -15,4 +15,8 @@ class School #"model" in the domain model context
   def grade(grade)
     @roster[grade]
   end
+
+  def sort
+
+  end
 end
