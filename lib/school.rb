@@ -11,4 +11,8 @@ class School #"model" in the domain model context
       @roster[grade] ||= []
       @roster[grade] << student
   end
+
+  def grade(grade)
+    @grade = grade
+  end
 end
