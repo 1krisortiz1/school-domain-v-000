@@ -8,6 +8,7 @@ class School #"model" in the domain model context
   end
 
   def add_student(student, grade)
-
+      @student = student
+      @grade = grade
   end
 end
