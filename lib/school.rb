@@ -18,5 +18,6 @@ class School #"model" in the domain model context
 
   def sort
     @roster.each { |student| student.sort  }
+
   end
 end
