@@ -13,6 +13,6 @@ class School #"model" in the domain model context
   end
 
   def grade(grade)
-    @roster = grade
+    @roster[grade]
   end
 end
