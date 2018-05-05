@@ -6,4 +6,8 @@ class School #"model" in the domain model context
     @name = name
     @roster = {}
   end
+
+  def add_student
+    
+  end
 end
